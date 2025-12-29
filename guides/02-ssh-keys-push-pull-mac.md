@@ -1,11 +1,8 @@
 
-# Set up SSH keys (so push/pull is painless)
+# Set up SSH keys (Mac Setup)
 
-## What this is
-SSH lets your computer prove it’s you without typing your password every time.
-
-If you only use GitHub Desktop, you can ignore SSH most of the time.  
-If you ever use Terminal (even occasionally), SSH saves pain.
+## One-Off Process
+SSH keys let you transfer files to and from github (ie Push and Pull) without having to set up tokens each time. This saves a lot of time later.
 
 ---
 
@@ -17,7 +14,7 @@ ls -al ~/.ssh
 ```
 
 
-If you see these, you already have an SSH key:
+If you something like these, you already have an SSH key:
 ```
     id_ed25519 and id_ed25519.pub (common)
 ```
@@ -89,3 +86,4 @@ Check what keys you actually have:
 ```
 ls -al ~/.ssh
 ```
+
